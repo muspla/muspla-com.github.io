@@ -75,6 +75,25 @@
           font-weight: 200;
           font-size:28px;
       }
+
+      main ul {
+        list-style:none;
+        text-align:center;
+      }
+
+      main ul li {
+        line-height:200%;
+      }
+
+      main ul li.divider {
+        border-bottom:1px solid #fff;
+        padding:15px 0 0;
+        margin: 0 0 15px;
+      }
+
+      main ul li a {
+        color:#FFF;
+      }
     </style>
 
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
@@ -84,9 +103,11 @@
     <main>
       <h1>Muspla</h1>
       <ul>
-        <li><a href="/en/">Muspla in English</a></li>
-        <li><a href="/es/">Muspla en Español</a></li>
-        <li><a href="/pt/">Muspla em Português</a></li>
+        <li><a href="/en/" hreflang="en">Muspla in English</a></li>
+        <li><a href="/es/" hreflang="es">Muspla en Español</a></li>
+        <li><a href="/pt/" hreflang="pt">Muspla em Português</a></li>
+        <li class="divider"></li>
+        <li><a href="https://www.muspla.com.br/" hreflang="pt-br">Muspla Brasil</a></li>
       </ul>
     </main>
   </body>
