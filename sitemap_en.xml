@@ -7,7 +7,7 @@
     <loc>https://www.muspla.com/en/</loc>
 		<xhtml:link
 			rel="alternate"
-			hreflang="x"
+			hreflang="x-default"
 			href="https://www.muspla.com/"
 		/>
 	  <xhtml:link
